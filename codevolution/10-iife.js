@@ -1,9 +1,9 @@
-(function () {
+(function (message) {
   const name = "Beast Unleashed"
-  console.log(name)
-})();
+  console.log(message, name)
+})("Hey ho,");
 
-(function () {
+(function (message) {
   const name = "Hannibal Angel"
-  console.log(name)
-})();
+  console.log(message, name)
+})("Let's go!");
